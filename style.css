@@ -1,0 +1,22 @@
+.btn-warning{
+font-size:32px !important; 
+}
+body{
+    font-family: 'Space Grotesk', sans-serif;
+}
+canvas{
+animation-name:sixtynineomen;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+border-radius:8px;
+border:white 4px solid;
+}
+@keyframes sixtynineomen{
+from{
+box-shadow: 1px 1px 600px rgb(134, 90, 255);
+}
+to{
+box-shadow: 1px 1px 600px rgb(247, 99, 235);
+}
+}
+
